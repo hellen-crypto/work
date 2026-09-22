@@ -278,84 +278,89 @@ Các bước và hình ảnh dưới đây được biên tập từ tài liệu
 
 ### 6. Thao tác trên VPBank
 
-1. Truy cập hệ thống VPBank được công ty cấp và đăng nhập.
-2. Chọn **Chuyển khoản**.
-3. Chọn chuyển trong nội bộ, liên ngân hàng hoặc chuyển nhanh phù hợp.
-4. Chọn tài khoản nguồn.
-5. Nhập số tài khoản người nhận và kiểm tra tên người thụ hưởng do hệ thống hiển thị.
-6. Nhập số tiền, nội dung chuyển tiền và tài khoản thu phí.
-7. Kiểm tra lại toàn bộ thông tin trên màn hình xác nhận.
-8. Thực hiện xác thực theo quyền được cấp.
-9. Chuyển lệnh cho người có thẩm quyền phê duyệt.
-10. Sau khi hoàn tất, lưu xác nhận giao dịch.
+**B1:** Truy cập hệ thống VPBank được công ty cấp; nhập thông tin đăng nhập.
 
 ![Màn hình đăng nhập VPBank đã che thông tin](bank-guide-images/redacted/bank-guide-01.png)
 
+**B2:** Chọn **Đăng nhập** để vào giao diện tài khoản.
+
 ![Giao diện tài khoản VPBank đã che thông tin](bank-guide-images/redacted/bank-guide-02.png)
+
+**B3:** Chọn **Chuyển khoản**, sau đó chọn chuyển nội bộ, liên ngân hàng hoặc chuyển nhanh phù hợp.
 
 ![Menu chuyển khoản VPBank](bank-guide-images/redacted/bank-guide-03.png)
 
+**B4:** Chọn tài khoản nguồn; nhập số tài khoản người nhận, kiểm tra tên người thụ hưởng; nhập số tiền, nội dung chuyển tiền và tài khoản thu phí.
+
 ![Nhập thông tin giao dịch VPBank đã che dữ liệu](bank-guide-images/redacted/bank-guide-04.png)
+
+**B5:** Chọn **Tiếp tục** và kiểm tra toàn bộ thông tin trên màn hình xác nhận.
 
 ![Xác nhận giao dịch VPBank đã che dữ liệu](bank-guide-images/redacted/bank-guide-05.png)
 
+**B6:** Thực hiện xác thực theo yêu cầu của hệ thống và quyền được cấp.
+
 ![Xác thực VPBank đã che dữ liệu](bank-guide-images/redacted/bank-guide-06.png)
+
+**B7:** Kiểm tra kết quả hoàn tất bước lập lệnh.
 
 ![Hoàn tất lập lệnh VPBank đã che dữ liệu](bank-guide-images/redacted/bank-guide-07.png)
 
+**B8:** Chuyển lệnh cho người có thẩm quyền phê duyệt. Theo dõi kết quả và lưu xác nhận khi giao dịch thành công.
+
 ### 7. Thao tác trên Vietcombank DigiBiz
 
-1. Đăng nhập Vietcombank DigiBiz bằng tài khoản được cấp.
-2. Chọn **Chuyển tiền** và chọn đúng hình thức chuyển.
-3. Chọn tài khoản nguồn.
-4. Nhập tài khoản hoặc thẻ nhận, số tiền, nội dung và lựa chọn phí.
-5. Kiểm tra tên người nhận, ngân hàng nhận và toàn bộ thông tin giao dịch.
-6. Chọn xác nhận.
-7. Thực hiện xác thực theo cơ chế được công ty cấp.
-8. Chuyển lệnh cho người có thẩm quyền phê duyệt.
-9. Theo dõi kết quả và lưu bằng chứng giao dịch.
+**B1:** Truy cập Vietcombank DigiBiz; nhập thông tin đăng nhập được cấp.
 
 ![Đăng nhập Vietcombank đã che thông tin](bank-guide-images/redacted/bank-guide-08.png)
 
+**B2:** Chọn **Đăng nhập** để vào giao diện tài khoản.
+
 ![Giao diện Vietcombank đã che thông tin](bank-guide-images/redacted/bank-guide-09.png)
+
+**B3:** Chọn **Chuyển tiền**, hình thức chuyển và tài khoản nguồn; nhập thông tin người nhận, số tiền, nội dung và lựa chọn phí.
 
 ![Nhập thông tin chuyển tiền Vietcombank đã che dữ liệu](bank-guide-images/redacted/bank-guide-10.png)
 
+**B4:** Chọn **Tiếp tục**; kiểm tra tên người nhận, ngân hàng nhận và toàn bộ thông tin giao dịch.
+
 ![Xác nhận giao dịch Vietcombank đã che dữ liệu](bank-guide-images/redacted/bank-guide-11.png)
+
+**B5:** Chọn **Xác nhận** và thực hiện xác thực theo cơ chế được công ty cấp.
 
 ![Mã QR xác thực Vietcombank đã được che](bank-guide-images/redacted/bank-guide-12.png)
 
+**B6:** Chuyển lệnh cho người có thẩm quyền phê duyệt. Theo dõi kết quả và lưu xác nhận khi giao dịch thành công.
+
 ### 8. Thao tác trên Nam A Bank
 
-1. Truy cập Open Banking Nam A Bank và chọn tài khoản doanh nghiệp.
-2. Đăng nhập bằng tài khoản được cấp.
-3. Chọn **Chuyển tiền** và chọn đúng tài khoản nguồn.
-4. Chọn ngân hàng nhận; nhập tài khoản, tên người nhận, số tiền, nội dung và tên giao dịch.
-5. Kiểm tra hình thức chuyển tiền và thông tin người nhận.
-6. Chọn xác nhận và thực hiện xác thực theo phân quyền.
-7. Chuyển lệnh cho người có thẩm quyền phê duyệt.
-8. Lưu xác nhận giao dịch và cập nhật trạng thái thanh toán.
+**B1:** Truy cập Open Banking Nam A Bank, chọn khách hàng doanh nghiệp và đăng nhập bằng tài khoản được cấp.
+
+**B2:** Chọn **Chuyển tiền** và tài khoản nguồn; chọn ngân hàng nhận, nhập tài khoản, tên người nhận, số tiền, nội dung và tên giao dịch. Kiểm tra hình thức chuyển tiền và thông tin người nhận.
 
 ![Thông tin chuyển tiền Nam A Bank đã che dữ liệu](bank-guide-images/redacted/bank-guide-13.png)
 
+**B3:** Chọn **Xác nhận** và thực hiện xác thực theo phân quyền.
+
 ![Mã QR xác thực Nam A Bank đã được che](bank-guide-images/redacted/bank-guide-14.png)
+
+**B4:** Chuyển lệnh cho người có thẩm quyền phê duyệt. Theo dõi kết quả, lưu xác nhận khi giao dịch thành công và cập nhật trạng thái thanh toán.
 
 ### 9. Thao tác trên MBBank
 
-1. Truy cập MBBank Digital Banking Corp và đăng nhập.
-2. Chọn **Thanh toán và chuyển tiền**.
-3. Chọn **Chuyển tiền trong nước**.
-4. Chọn tài khoản nguồn và nhập thông tin người thụ hưởng.
-5. Nhập số tiền, nội dung và các thông tin giao dịch theo yêu cầu.
-6. Kiểm tra toàn bộ thông tin trước khi chọn **Tiếp tục**.
-7. Chuyển lệnh cho người có thẩm quyền phê duyệt.
-8. Theo dõi kết quả và lưu xác nhận giao dịch.
+**B1:** Truy cập MBBank Digital Banking Corp và đăng nhập bằng tài khoản được cấp.
 
 ![Đăng nhập MBBank đã che thông tin](bank-guide-images/redacted/bank-guide-15.png)
 
+**B2:** Chọn **Thanh toán và chuyển tiền**, sau đó chọn **Chuyển tiền trong nước**.
+
 ![Menu thanh toán và chuyển tiền MBBank](bank-guide-images/redacted/bank-guide-16.png)
 
+**B3:** Chọn tài khoản nguồn; nhập thông tin người thụ hưởng, số tiền, nội dung và các thông tin giao dịch theo yêu cầu. Kiểm tra toàn bộ thông tin trước khi chọn **Tiếp tục**.
+
 ![Xác nhận chuyển tiền MBBank đã che dữ liệu](bank-guide-images/redacted/bank-guide-17.png)
+
+**B4:** Chuyển lệnh cho người có thẩm quyền phê duyệt. Theo dõi kết quả và lưu xác nhận khi giao dịch thành công.
 
 ### 10. Kiểm tra sau khi lập lệnh
 
