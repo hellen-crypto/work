@@ -393,60 +393,18 @@ Giữ chứng từ ngân hàng gốc trong thư mục được phân quyền đ�
 
 ## Hướng dẫn đăng nhập vào phần mềm kế toán MISA và phần mềm xuất hóa đơn MISA meInvoice
 
-### 1. Đăng nhập vào phần mềm kế toán MISA
+### 1. Đăng nhập vào phần mềm MISA
 
-**Chuẩn bị:** Đường dẫn truy cập MISA của công ty, tài khoản được cấp và bộ chứng từ cần nhập. Sử dụng thông tin đăng nhập được bàn giao qua kênh nội bộ; không ghi mật khẩu trong tài liệu hướng dẫn.
+**B1:** Nhấp vào [Quy trình | Mua hàng | IMM GROUP | Kế toán](https://actapp.misa.vn/app/PU/PUProcess), nhập ID và mật khẩu, sau đó chọn **Đăng nhập**.
 
-**Bước 1. Truy cập và đăng nhập**
+**B2:** Nhập chứng từ vào phần mềm MISA.
 
-1. Mở đường dẫn MISA đã được công ty cấp. Trong tài liệu gốc, đường dẫn này có tên hiển thị **“Quy trình | Mua hàng | IMM GROUP | Kế toán”**.
-2. Nhập tên đăng nhập và mật khẩu của tài khoản được cấp, sau đó chọn **Đăng nhập**.
-3. Sau khi vào phần mềm, kiểm tra đúng đơn vị và dữ liệu kế toán cần làm việc trước khi nhập chứng từ.
+**B3:** Kiểm tra báo cáo để xác định chứng từ đã được phân loại đúng; xuất các báo cáo phục vụ công việc kế toán như báo cáo thuế hằng quý, báo cáo tài chính năm…
 
-**Bước 2. Nhập chứng từ kế toán**
+### 2. Đăng nhập vào phần mềm MISA meInvoice
 
-1. Chuẩn bị hóa đơn, đề nghị thanh toán, chứng từ ngân hàng hoặc hồ sơ liên quan đến nghiệp vụ.
-2. Mở phân hệ phù hợp với nội dung chứng từ cần ghi nhận.
-3. Nhập thông tin ngày chứng từ, đối tượng, nội dung nghiệp vụ, số tiền và các thông tin kế toán liên quan theo hồ sơ thực tế.
-4. Kiểm tra tài khoản hạch toán, khoản mục và cách phân loại nghiệp vụ trước khi lưu; đối chiếu lại số liệu với chứng từ gốc.
-5. Lưu chứng từ và kiểm tra chứng từ đã được ghi nhận trên phần mềm; liên kết hoặc lưu kèm hồ sơ để thuận tiện tra cứu.
+**B1:** Nhấp vào [Đăng nhập | MISA meInvoice](https://app3.meinvoice.vn/login/1?ReturnUrl=%2F), nhập ID và mật khẩu, sau đó chọn **Đăng nhập**.
 
-**Bước 3. Kiểm tra và xuất báo cáo**
+**B2:** Chọn **Thêm mới**, nhập thông tin khách hàng cần xuất hóa đơn, sau đó chọn **Lưu**.
 
-1. Mở báo cáo hoặc sổ chi tiết liên quan đến chứng từ vừa nhập, chọn đúng kỳ và đơn vị cần kiểm tra.
-2. Đối chiếu số tiền, đối tượng và khoản mục để xác định chứng từ đã được phân loại đúng.
-3. Nếu phát hiện sai lệch, kiểm tra lại chứng từ và chỉnh sửa trong phạm vi quyền được giao; báo người phụ trách nếu chưa xác định được cách xử lý.
-4. Xuất các báo cáo cần thiết để phục vụ công việc kế toán, bao gồm dữ liệu phục vụ báo cáo thuế quý và báo cáo tài chính năm theo nội dung tài liệu gốc.
-5. Lưu báo cáo vào thư mục dùng chung, ghi rõ đơn vị, kỳ báo cáo và nội dung để tránh nhầm phiên bản.
-
-**Kết quả cần có:** Đăng nhập đúng dữ liệu kế toán; chứng từ được nhập, kiểm tra và phân loại phù hợp; báo cáo cần sử dụng được xuất và lưu đúng nơi.
-
-### 2. Đăng nhập và lập hóa đơn trên MISA meInvoice
-
-**Chuẩn bị:** Đường dẫn MISA meInvoice của công ty, tài khoản được cấp, thông tin người mua, hồ sơ làm căn cứ xuất hóa đơn và thiết bị chữ ký số Token theo cách thực hiện trong tài liệu gốc.
-
-**Bước 1. Truy cập và đăng nhập**
-
-1. Mở đường dẫn được công ty cấp, có tên hiển thị **“Đăng nhập | MISA meInvoice”** trong tài liệu gốc.
-2. Nhập tên đăng nhập và mật khẩu, sau đó chọn **Đăng nhập**.
-3. Kiểm tra đúng đơn vị phát hành hóa đơn trước khi thao tác.
-
-**Bước 2. Lập và lưu hóa đơn**
-
-1. Chọn **Thêm mới** để lập hóa đơn.
-2. Nhập thông tin khách hàng cần xuất hóa đơn; đối chiếu tên đơn vị hoặc người mua, mã số thuế và địa chỉ với hồ sơ đã được xác nhận.
-3. Nhập nội dung hàng hóa hoặc dịch vụ, số lượng, đơn giá, thuế suất và các thông tin liên quan theo nghiệp vụ thực tế.
-4. Kiểm tra tiền hàng, tiền thuế và tổng thanh toán; rà soát để tránh lập trùng hóa đơn.
-5. Chọn **Lưu** và kiểm tra lại bản hóa đơn đã lập trước khi phát hành. Hóa đơn mới lưu chưa đồng nghĩa với hóa đơn đã phát hành.
-
-**Bước 3. Ký số và phát hành hóa đơn**
-
-1. Sau khi thông tin hóa đơn đã được kiểm tra và đủ điều kiện phát hành, chọn **Phát hành**.
-2. Kết nối thiết bị chữ ký số **Token** với máy tính theo hướng dẫn trong tài liệu gốc.
-3. Người được giao sử dụng chữ ký số nhập mã PIN Token khi hệ thống yêu cầu và hoàn tất thao tác ký, phát hành.
-4. Kiểm tra kết quả trên phần mềm để xác nhận hóa đơn đã phát hành thành công. Nếu hệ thống báo lỗi hoặc chưa rõ kết quả, kiểm tra trạng thái hóa đơn trước khi thực hiện lại.
-5. Gửi hóa đơn đã phát hành cho khách hàng, lưu hồ sơ và cập nhật thông tin hóa đơn vào bảng theo dõi hoặc hồ sơ công nợ liên quan.
-
-**Kết quả cần có:** Hóa đơn được lập đúng thông tin, ký số và xác nhận phát hành thành công; hồ sơ được lưu để tra cứu và đối chiếu.
-
-**Lưu ý khi sử dụng:** Các bước trên được biên tập từ tài liệu gốc của công ty. Tên chức năng có thể khác theo phiên bản và quyền truy cập thực tế. Nếu không đăng nhập được, không thấy dữ liệu đơn vị hoặc thiết bị Token không hoạt động, ghi nhận thông báo lỗi và liên hệ người phụ trách hệ thống; không sử dụng tài khoản của người khác hoặc ghi mã PIN vào tài liệu.
+**B3:** Chọn **Phát hành**, gắn Token vào máy tính và nhập mã PIN Token để hoàn tất việc xuất hóa đơn.
