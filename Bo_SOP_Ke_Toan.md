@@ -2,6 +2,17 @@
 
 > **Tài liệu nội bộ.** Không ghi tên đăng nhập, mật khẩu, PIN, OTP, mã QR xác thực hoặc dữ liệu cá nhân nhạy cảm vào SOP.
 
+## Kiểm soát tài liệu
+
+| Nội dung | Thông tin |
+|---|---|
+| Đơn vị áp dụng | IMM Group và các đơn vị liên quan |
+| Chủ sở hữu tài liệu | `[CẦN BỔ SUNG]` |
+| Người kiểm tra | `[CẦN BỔ SUNG]` |
+| Người phê duyệt | `[CẦN BỔ SUNG]` |
+| Phiên bản | 1.0 |
+| Ngày hiệu lực | `[CẦN BỔ SUNG]` |
+
 ## 1. Mục đích và nguyên tắc sử dụng
 
 Bộ tài liệu chuẩn hóa các nghiệp vụ kế toán để nhân viên mới có thể tự thực hiện phần lớn công việc, tự kiểm tra kết quả và biết cách xử lý trường hợp ngoại lệ.
@@ -55,7 +66,92 @@ Bộ tài liệu chuẩn hóa các nghiệp vụ kế toán để nhân viên m�
 | SOP-ACC-16 | Quản lý nhập, xuất, tồn kho và hóa đơn hàng hóa |
 | SOP-ACC-17 | Lưu trữ chứng từ, dữ liệu kế toán và bàn giao công việc |
 
-## 4. Nội dung chi tiết từng SOP
+## 4. SOP mẫu lập lệnh thanh toán ngân hàng
+
+### 4.1 Nguyên tắc chung
+
+1. Chỉ lập lệnh sau khi hồ sơ đã đạt yêu cầu theo SOP-ACC-02.
+2. Đối chiếu độc lập tên người nhận, số tài khoản, ngân hàng, số tiền và nội dung.
+3. Người lập lệnh không tự phê duyệt nếu phân quyền yêu cầu tách biệt.
+4. Không ghi hoặc chụp lại mật khẩu, PIN, OTP hay mã QR chưa được che.
+5. Sau khi giao dịch hoàn tất, lưu xác nhận giao dịch và cập nhật trạng thái thanh toán.
+
+### 4.2 VPBank
+
+1. Truy cập hệ thống VPBank được công ty cấp và đăng nhập.
+2. Chọn **Chuyển khoản** và chọn chuyển cùng hệ thống, liên ngân hàng hoặc chuyển nhanh phù hợp.
+3. Chọn tài khoản nguồn; nhập người nhận, số tiền, nội dung và tài khoản thu phí.
+4. Kiểm tra toàn bộ thông tin trên màn hình xác nhận.
+5. Thực hiện bước xác thực theo phân quyền và chuyển lệnh cho người duyệt.
+6. Theo dõi trạng thái, tải xác nhận giao dịch và lưu hồ sơ.
+
+![Màn hình đăng nhập VPBank đã che thông tin](bank-guide-images/redacted/bank-guide-01.png)
+
+![Giao diện tài khoản VPBank đã che thông tin](bank-guide-images/redacted/bank-guide-02.png)
+
+![Menu chuyển khoản VPBank](bank-guide-images/redacted/bank-guide-03.png)
+
+![Nhập thông tin giao dịch VPBank đã che dữ liệu](bank-guide-images/redacted/bank-guide-04.png)
+
+![Xác nhận giao dịch VPBank đã che dữ liệu](bank-guide-images/redacted/bank-guide-05.png)
+
+![Xác thực VPBank đã che dữ liệu](bank-guide-images/redacted/bank-guide-06.png)
+
+![Hoàn tất lập lệnh VPBank đã che dữ liệu](bank-guide-images/redacted/bank-guide-07.png)
+
+### 4.3 Vietcombank DigiBiz
+
+1. Đăng nhập Vietcombank DigiBiz bằng tài khoản được cấp.
+2. Chọn **Chuyển tiền**, chọn đúng tài khoản nguồn và hình thức chuyển.
+3. Nhập người nhận, số tiền, nội dung và phí; kiểm tra lại thông tin.
+4. Chọn xác nhận và thực hiện xác thực theo cơ chế được cấp.
+5. Chuyển lệnh cho người có thẩm quyền phê duyệt và lưu bằng chứng.
+
+![Đăng nhập Vietcombank đã che thông tin](bank-guide-images/redacted/bank-guide-08.png)
+
+![Giao diện Vietcombank đã che thông tin](bank-guide-images/redacted/bank-guide-09.png)
+
+![Nhập thông tin chuyển tiền Vietcombank đã che dữ liệu](bank-guide-images/redacted/bank-guide-10.png)
+
+![Xác nhận giao dịch Vietcombank đã che dữ liệu](bank-guide-images/redacted/bank-guide-11.png)
+
+![Mã QR xác thực Vietcombank đã được che](bank-guide-images/redacted/bank-guide-12.png)
+
+### 4.4 Nam A Bank
+
+1. Truy cập Open Banking Nam A Bank và chọn tài khoản doanh nghiệp.
+2. Chọn **Chuyển tiền**, nhập thông tin giao dịch và đối chiếu với chứng từ.
+3. Chọn xác nhận, thực hiện xác thực theo phân quyền và chuyển người duyệt.
+4. Lưu xác nhận giao dịch và cập nhật trạng thái thanh toán.
+
+![Thông tin chuyển tiền Nam A Bank đã che dữ liệu](bank-guide-images/redacted/bank-guide-13.png)
+
+![Mã QR xác thực Nam A Bank đã được che](bank-guide-images/redacted/bank-guide-14.png)
+
+### 4.5 MBBank
+
+1. Truy cập MBBank Digital Banking Corp và đăng nhập.
+2. Chọn **Thanh toán và chuyển tiền**, sau đó chọn **Chuyển tiền trong nước**.
+3. Nhập thông tin người thụ hưởng và giao dịch; kiểm tra trước khi tiếp tục.
+4. Chuyển lệnh cho người có thẩm quyền phê duyệt và lưu bằng chứng.
+
+![Đăng nhập MBBank đã che thông tin](bank-guide-images/redacted/bank-guide-15.png)
+
+![Menu thanh toán và chuyển tiền MBBank](bank-guide-images/redacted/bank-guide-16.png)
+
+![Xác nhận chuyển tiền MBBank đã che dữ liệu](bank-guide-images/redacted/bank-guide-17.png)
+
+### 4.6 Xử lý sự cố giao dịch ngân hàng
+
+| Tình huống | Cách xử lý |
+|---|---|
+| Sai thông tin trước khi duyệt | Dừng thao tác; hủy hoặc sửa lệnh theo quyền được cấp; đối chiếu lại chứng từ. |
+| Sai thông tin sau khi duyệt | Báo ngay người phụ trách và người phê duyệt; liên hệ ngân hàng theo đầu mối được công ty quy định. |
+| Lệnh bị từ chối | Kiểm tra lý do, sửa theo chứng từ hợp lệ và trình duyệt lại. |
+| Không nhận được OTP hoặc xác thực lỗi | Không thử liên tục vượt giới hạn; lưu bằng chứng lỗi và liên hệ đầu mối hỗ trợ. |
+| Giao dịch treo hoặc trừ tiền chưa có kết quả | Không lập lại lệnh khi chưa xác định trạng thái; kiểm tra ngân hàng và yêu cầu tra soát. |
+
+## 5. Nội dung chi tiết từng SOP
 
 ### SOP-ACC-01 – Kiểm tra số dư và cập nhật dòng tiền
 
@@ -918,7 +1014,47 @@ Bộ tài liệu chuẩn hóa các nghiệp vụ kế toán để nhân viên m�
 
 ---
 
-## 5. Thông tin phải hoàn thiện trước khi ban hành
+## 6. Lịch công việc kế toán
+
+### 6.1 Hằng ngày
+
+- Thực hiện các công việc và checklist tại Mục 2.
+- Theo dõi các hồ sơ thiếu, giao dịch chưa nhận diện và lệnh chưa được duyệt.
+- Lưu chứng từ phát sinh vào thư mục dùng chung ngay sau khi hoàn tất nghiệp vụ.
+
+### 6.2 Hằng tuần
+
+- Rà soát công nợ đến hạn, quá hạn và kế hoạch thu tiền.
+- Rà soát kế hoạch thanh toán tuần tiếp theo và nhu cầu dòng tiền.
+- Kiểm tra tạm ứng sắp đến hạn hoặc đã quá hạn.
+- Rà soát hồ sơ thanh toán, hóa đơn và hợp đồng còn thiếu.
+- Kiểm tra giao dịch chưa nhận diện hoặc chênh lệch ngân hàng chưa xử lý.
+
+### 6.3 Hằng tháng
+
+- Hoàn tất đối chiếu ngân hàng, tiền mặt, công nợ, tạm ứng và tồn kho.
+- Ghi nhận lương, bảo hiểm, khấu hao, phân bổ, trích trước và các bút toán cuối kỳ.
+- Khóa sổ và lưu bộ sổ kế toán tháng.
+- Lập báo cáo quản trị, kết quả kinh doanh và phân tích biến động.
+- Thực hiện nghĩa vụ thuế theo kỳ áp dụng.
+- Rà soát quyền truy cập và tình trạng lưu trữ hồ sơ.
+
+### 6.4 Hằng quý
+
+- Rà soát số liệu thuế, công nợ, hợp đồng và các khoản cần dự phòng.
+- Đối chiếu/xác nhận công nợ với các đối tác trọng yếu.
+- Kiểm kê quỹ và hàng tồn kho theo kế hoạch.
+- Rà soát hiệu quả chi phí, ngân sách và các khoản mục biến động lớn.
+
+### 6.5 Hằng năm
+
+- Kiểm kê tiền mặt, tài sản và hàng tồn kho cuối năm.
+- Hoàn tất xác nhận công nợ, khóa sổ năm và bộ working papers.
+- Lập báo cáo tài chính, quyết toán thuế và các báo cáo bắt buộc.
+- Rà soát thời hạn lưu trữ, quyền truy cập và kế hoạch bàn giao.
+- Cập nhật bộ SOP theo thay đổi pháp luật, hệ thống và cơ cấu nhân sự.
+
+## 7. Thông tin phải hoàn thiện trước khi ban hành
 
 - Sơ đồ phân quyền thực hiện, kiểm tra và phê duyệt.
 - Danh sách pháp nhân, tài khoản ngân hàng và hệ thống sử dụng.
